@@ -1,7 +1,7 @@
 # Sample locustfile.py
 
 This sample demonstrates how to connect to Dataverse using REST calls to execute
-the tests as documented in the file [power-platform-dataverse-tests](../README.md).
+the tests in Power Platform and Dataverse.
 
 The script will execute the load test using Locust.
 
@@ -121,7 +121,7 @@ The parameters are:
 The diagram below shows the flow of the messages for the tests of the *create* and *close* cases. It details the messaging
 being transmitted from one component to the other in use in the solution.
 
-![Detailed test Flow](../images/detailed-test-flow.png "Detailed test Flow")
+![Detailed test Flow](images/detailed-test-flow.png "Detailed test Flow")
 
 The [source code](##Source%20code) in the coming section will do exactly the steps shown in the diagram.
 
